@@ -1,0 +1,234 @@
+body {
+    background-image: url("../images/sandstone.png");
+    background-repeat: repeat;
+    font-size: 12pt;
+    font-family: diogenes;
+}
+
+@font-face {
+    font-family: diogenes;
+    src: url("../external/diogenes.ttf")
+}
+
+/*code for desktops*/
+
+@media(min-width: 1200px) {
+
+.header_section {
+    width: 75%;
+    margin: 3% auto;
+    background-image: url("../images/bgp.png");
+    background-repeat: repeat;
+    border: 0.5em inset #bbbbbb;
+}
+h1 { 
+    font-size: 9em;
+    color: #000000;
+    text-shadow: .05em .05em #999999;
+    text-align: center;
+    padding: 1.5% 0;
+}
+h4 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: .05em .05em #999999;
+}
+#l_float_select {
+    float: left;
+    width: 35%;
+    margin-left: 12.5%;
+    margin-bottom: 3%;
+    background-image: url("../images/bgp.png");
+    background-repeat: repeat;
+    border: 0.5em inset #bbbbbb;
+}
+#r_float_select {
+    float: right;
+    width: 35%;
+    margin-right: 12.5%;
+    margin-bottom: 3%;
+    background-image: url("../images/bgp.png");
+    background-repeat: repeat;
+    border: 0.5em inset #bbbbbb;
+}
+.q_title {
+    font-size: 5em;
+}
+.q_select {
+    background-image: url("../images/bgbtn.png");
+    background-repeat: repeat;
+    font: bold 0.5em diogenes;
+    border: 0.4em inset #bbbbbb;
+    width: 2em;
+    display: inline-block;
+}
+section div div {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+.q_and_a {
+    font-size: 1em;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+}
+div div a:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+.answer {
+    display: none;
+    font-weight: bold;
+    font-style: italic;
+}
+.btn {
+    background-image: url("../images/bgbtn.png");
+    background-repeat: repeat;
+    font-size: 0.7em;
+    font-weight: bold;
+    border: 0.4em inset #bbbbbb;
+}
+.actbtn {
+    width: 100%;
+    display: inline-block;
+}
+#dwnld {
+    width: 30%;
+    display: block;
+    margin: auto;
+    padding: 2em;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+/*code for theme select*/
+
+.theme_select {
+    float: left;
+    background-image: url("../images/bgp.png");
+    background-repeat: repeat;
+    border: 0.5em inset #bbbbbb;
+    font: diogenes bold 2em;
+    width: 10%;
+    margin: .1em;
+    z-index: 1;
+}
+#themes {
+    display: none;
+}
+#msandstone:hover, #mmarble:hover, #mgranite:hover {
+    color: #ffffff;
+}
+#sandstone:hover, #marble:hover, #granite:hover {
+    color: #ffffff;
+}
+
+}
+
+/*style for tablets and smaller*/
+
+@media(max-width: 1199px) {
+
+.header_section {
+    width: 75%;
+    margin: 3% auto;
+    background-image: url("../images/bgp.png");
+    background-repeat: repeat;
+    border: 0.5em inset #bbbbbb;
+}
+h1 { 
+    font-size: 6em;
+    color: #000000;
+    text-shadow: .05em .05em #999999;
+    text-align: center;
+    padding: 1.5% 0;
+}
+h4 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: .05em .05em #999999;
+}
+#l_float_select {
+    width: 75%;
+    margin: auto;
+    background-image: url("../images/bgp.png");
+    background-repeat: repeat;
+    border: 0.5em inset #bbbbbb;
+}
+#r_float_select {
+    width: 75%;
+    margin: auto;
+    background-image: url("../images/bgp.png");
+    background-repeat: repeat;
+    border: 0.5em inset #bbbbbb;
+}
+.q_title {
+    font-size: 2em;
+}
+.q_select {
+    background-image: url("../images/bgbtn.png");
+    background-repeat: repeat;
+    font: bold 0.5em diogenes;
+    border: 0.4em inset #bbbbbb;
+    width: 2em;
+    display: inline-block;
+}
+section div div {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+.q_and_a {
+    font-size: 1em;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+}
+div div a:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+.answer {
+    display: none;
+    font-weight: bold;
+    font-style: italic;
+}
+.btn {
+    background-image: url("../images/bgbtn.png");
+    background-repeat: repeat;
+    font-size: 0.7em;
+    font-weight: bold;
+    border: 0.4em inset #bbbbbb;
+}
+.actbtn {
+    width: 100%;
+    display: inline-block;
+}
+#dwnld {
+    width: 30%;
+    display: block;
+    margin: auto;
+    padding: 2em;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+/*code for theme select*/
+
+.theme_select {
+    display: none;
+}
+#themes {
+    display: none;
+}
+
+}
