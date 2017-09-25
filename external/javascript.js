@@ -62,8 +62,8 @@ $(window).click(function() {
 
 //code for index theme select
 
-$("#msandstone").click(function() {
-  $("body").css({"background-image":"url(images/sandstone.png)", "background-repeat":"repeat"});
+$("#pine").click(function() {
+  $("body").css({"background-image":"url(images/pine.png)", "background-repeat":"repeat"});
 });
 
 $("#mmarble").click(function() {

@@ -1,13 +1,13 @@
 body {
-    background-image: url("../images/sandstone.png");
+    background-image: url("../images/pine.png");
     background-repeat: repeat;
     font-size: 12pt;
-    font-family: diogenes;
+    font-family: Roman SD;
 }
 
 @font-face {
-    font-family: diogenes;
-    src: url("../external/diogenes.ttf")
+    font-family: Roman SD;
+    src: url("../external/roman.ttf")
 }
 
 /*code for desktops*/
@@ -121,10 +121,10 @@ a {
 #themes {
     display: none;
 }
-#msandstone:hover, #mmarble:hover, #mgranite:hover {
+#pine:hover, #mmarble:hover, #mgranite:hover {
     color: #ffffff;
 }
-#sandstone:hover, #marble:hover, #granite:hover {
+#pine:hover, #marble:hover, #granite:hover {
     color: #ffffff;
 }
 
