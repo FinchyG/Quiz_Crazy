@@ -121,10 +121,10 @@ a {
 #themes {
     display: none;
 }
-#pine:hover, #mmarble:hover, #mgranite:hover {
+#pine:hover, #oak:hover, #mgranite:hover {
     color: #ffffff;
 }
-#pine:hover, #marble:hover, #granite:hover {
+#pine:hover, #oak:hover, #granite:hover {
     color: #ffffff;
 }
 

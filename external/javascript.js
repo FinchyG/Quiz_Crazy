@@ -63,25 +63,25 @@ $(window).click(function() {
 //code for index theme select
 
 $("#pine").click(function() {
-  $("body").css({"background-image":"url(images/pine.png)", "background-repeat":"repeat"});
+  $("body").css({"background-image":"url(../images/pine.png)", "background-repeat":"repeat"});
 });
 
-$("#mmarble").click(function() {
-  $("body").css({"background-image":"url(images/marble.png)", "background-repeat":"repeat"});
+$("#oak").click(function() {
+  $("body").css({"background-image":"url(../images/oak.png)", "background-repeat":"repeat"});
 });
 
 $("#mgranite").click(function() {
-  $("body").css({"background-image":"url(images/granite.png)", "background-repeat":"repeat"});
+  $("body").css({"background-image":"url(../images/granite.png)", "background-repeat":"repeat"});
 });
 
 //code for quiz theme select
 
-$("#sandstone").click(function() {
-  $("body").css({"background-image":"url(../images/sandstone.png)", "background-repeat":"repeat"});
+$("#pine").click(function() {
+  $("body").css({"background-image":"url(../images/pine.png)", "background-repeat":"repeat"});
 });
 
-$("#marble").click(function() {
-  $("body").css({"background-image":"url(../images/marble.png)", "background-repeat":"repeat"});
+$("#oak").click(function() {
+  $("body").css({"background-image":"url(../images/oak.png)", "background-repeat":"repeat"});
 });
 
 $("#granite").click(function() {
