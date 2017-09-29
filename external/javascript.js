@@ -62,16 +62,16 @@ $(window).click(function() {
 
 //code for index theme select
 
-$("#pine").click(function() {
-  $("body").css({"background-image":"url(../images/pine.png)", "background-repeat":"repeat"});
+$("#mpine").click(function() {
+  $("body").css({"background-image":"url(images/pine.png)", "background-repeat":"repeat"});
 });
 
-$("#oak").click(function() {
-  $("body").css({"background-image":"url(../images/oak.png)", "background-repeat":"repeat"});
+$("#moak").click(function() {
+  $("body").css({"background-image":"url(images/oak.png)", "background-repeat":"repeat"});
 });
 
-$("#mgranite").click(function() {
-  $("body").css({"background-image":"url(../images/granite.png)", "background-repeat":"repeat"});
+$("#mmahogany").click(function() {
+  $("body").css({"background-image":"url(images/mahogany.png)", "background-repeat":"repeat"});
 });
 
 //code for quiz theme select
@@ -84,6 +84,6 @@ $("#oak").click(function() {
   $("body").css({"background-image":"url(../images/oak.png)", "background-repeat":"repeat"});
 });
 
-$("#granite").click(function() {
-  $("body").css({"background-image":"url(../images/granite.png)", "background-repeat":"repeat"});
+$("#mahogany").click(function() {
+  $("body").css({"background-image":"url(../images/mahogany.png)", "background-repeat":"repeat"});
 });
