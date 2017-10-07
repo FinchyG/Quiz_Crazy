@@ -56,7 +56,7 @@ $("#theme_select_btn").mouseenter(function() {
   $("#themes").show();
 });
 
-$(window).click(function() {
+$("#theme_select").mouseleave(function() {
   $("#themes").hide();
 });
 
