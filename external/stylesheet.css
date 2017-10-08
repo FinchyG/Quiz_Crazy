@@ -108,24 +108,6 @@ div div a:hover {
     padding: 2em;
 }
 
-/*code for theme select*/
-
-#theme_select {
-    float: left;
-    width: 10%;
-    margin: .1em;
-    z-index: 1;
-}
-#themes {
-    display: none;
-}
-#mpine:hover, #moak:hover, #mmahogany:hover {
-    font-style: italic;
-}
-#pine:hover, #oak:hover, #granite:hover {
-    font-style: italic;
-}
-
 }
 
 /*style for tablets and smaller*/
@@ -220,9 +202,4 @@ div div a:hover {
     padding: 2em;
 }
 
-
-/*code for theme select*/
-
-#theme_select {
-    display: none;
 }
