@@ -1,0 +1,44 @@
+%body_background {
+    background-image: url("../images/mahogany.png");
+    background-repeat: repeat;
+}
+
+%section_background {
+    background-image: url("../images/paper.png");
+    background-repeat: repeat;
+}
+
+%header {
+    text-shadow: .05em .05em #999999;
+    text-align: center;
+}
+
+body {
+    @extend %body_background;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+h1 {
+    @extend %header;
+    font-size: 5em;
+    padding: 3% 0;
+}
+
+h4 {
+    @extend %header;
+    font-size: 3em;
+    text-decoration: underline;
+    padding: 1em;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+
+    &:hover {
+        font-style: italic;
+    }
+}
+
