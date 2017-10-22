@@ -24,13 +24,23 @@
 }
 
 %section_border {
-    border-left: 0.5em solid #000000;
+    border-right: 0.5em solid #000000;
     border-bottom: 0.5em solid #000000;
 }
 
 %button_border {
-    border-left: 0.1em solid #000000;
+    border-right: 0.1em solid #000000;
     border-bottom: 0.1em solid #000000;
+}
+
+%button {
+    font-family: easyread;
+    font-weight: bold;
+    padding: 0.5em 2em;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 body {
@@ -67,7 +77,7 @@ a {
         weight: bold;
     }
     width: 80%;
-    margin-left: 3em;
+    margin-left: 4em;
 }
 
 .quiz_select {
@@ -113,26 +123,22 @@ a {
 .btn {
     @extend %section_background;
     @extend %button_border;
+    @extend %button;
     font-size: 0.7em;
-    font-family: easyread;
-    font-weight: bold;
-    margin: 0.8em auto;
-    padding: 0.5em 2em;
+    margin-top: 1em;
+}
 
 .actbtn {
-    @extend .btn;
-    width: 70%;
-    display: inline-block;
-    margin: auto;
-    font-size: 2em;
-}
-
-.dwnld {
-    @extend .btn;
-    width: 30%;
+    @extend %section_background;
+    @extend %button_border;
+    @extend %button;
     display: block;
+    width: 60%;
     margin: auto;
-    padding: 2em;
-}
+    font-size: 1.5em;
+    }
 
+#dwnld {
+    @extend .actbtn;
+    text-align: center;
 }
