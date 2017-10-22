@@ -13,7 +13,7 @@ body {
   background-repeat: repeat;
 }
 
-.wide_section, #l_float_select, #r_float_select, .btn, .actbtn, .dwnld {
+.wide_section, #l_float_select, #r_float_select, .btn, .btn .actbtn, .btn .dwnld {
   background-image: url("../images/paper.png");
   background-repeat: repeat;
 }
@@ -23,16 +23,14 @@ h1, h4 {
   text-align: center;
 }
 
-.wide_section, #l_float_select, #r_float_select, .btn, .actbtn, .dwnld {
+.wide_section, #l_float_select, #r_float_select {
   border-left: 0.5em solid #000000;
   border-bottom: 0.5em solid #000000;
 }
 
-p {
-  font-size: 2em;
-  font-weight: bold;
-  width: 50%;
-  margin: auto;
+.btn, .btn .actbtn, .btn .dwnld {
+  border-left: 0.1em solid #000000;
+  border-bottom: 0.1em solid #000000;
 }
 
 body {
@@ -60,8 +58,18 @@ a:hover {
   font-style: italic;
 }
 
-p {
+.question {
   font-family: easyread;
+  font-size: 2em;
+  font-weight: bold;
+  width: 80%;
+  margin-left: 3em;
+}
+
+.quiz_select {
+  font-family: Roman SD;
+  font-size: 2em;
+  text-align: center;
 }
 
 .wide_section {
@@ -90,19 +98,22 @@ p {
   font-style: italic;
 }
 
-.btn, .actbtn, .dwnld {
+.btn, .btn .actbtn, .btn .dwnld {
   font-size: 0.7em;
   font-family: easyread;
   font-weight: bold;
+  margin: 0.8em auto;
+  padding: 0.5em 2em;
 }
 
-.actbtn {
-  width: 90%;
+.btn .actbtn {
+  width: 70%;
   display: inline-block;
-  margin: 1em 2em;
+  margin: auto;
+  font-size: 2em;
 }
 
-.dwnld {
+.btn .dwnld {
   width: 30%;
   display: block;
   margin: auto;

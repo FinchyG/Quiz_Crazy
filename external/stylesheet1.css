@@ -1,0 +1,205 @@
+body {
+    background-image: url("../images/mahogany.png");
+    background-repeat: repeat;
+    font-size: 12pt;
+    font-family: Roman SD;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Roman SD;
+    src: url("../external/roman.ttf")
+}
+
+/*code for desktops*/
+
+@media(min-width: 1200px) {
+
+h1 { 
+    font-size: 5em;
+    text-shadow: .05em .05em #999999;
+    text-align: center;
+    padding: 3% 0;
+}
+
+h4 {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: .05em .05em #999999;
+    text-decoration: underline;
+    padding: 1em;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+section div div {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+div div a:hover {
+    font-style: italic;
+}
+
+#l_float_select {
+    float: left;
+    width: 35%;
+    margin-left: 12.5%;
+    margin-bottom: 3%;
+    background-image: url("../images/paper.png");
+    background-repeat: repeat;
+}
+
+#r_float_select {
+    float: right;
+    width: 35%;
+    margin-right: 12.5%;
+    margin-bottom: 3%;
+    background-image: url("../images/paper.png");
+    background-repeat: repeat;
+}
+
+.header_section {
+    width: 75%;
+    margin: 3% auto;
+    background-image: url("../images/paper.png");
+    background-repeat: repeat;
+    }
+
+.border {
+    border-left: 0.5em inset #000000;
+    border-bottom: 0.5em inset #000000;
+}
+
+.q_and_a {
+    width: 50%;
+    margin: auto;
+}
+
+.answer {
+    display: none;
+    font-style: italic;
+}
+
+/*code for buttons*/
+
+.btn {
+    background-image: url("../images/paper.png");
+    background-repeat: repeat;
+    font-size: 0.7em;
+    font-family: Roman SD;
+    font-weight: bold;
+}
+
+.actbtn {
+    width: 100%;
+    display: inline-block;
+}
+
+#dwnld {
+    width: 30%;
+    display: block;
+    margin: auto;
+    padding: 2em;
+}
+
+}
+
+/*style for tablets and smaller*/
+
+@media(max-width: 1199px) {
+
+h1 { 
+    font-size: 6em;
+    text-shadow: .05em .05em #999999;
+    text-align: center;
+    padding: 1.5% 0;
+}
+
+h4 {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: .05em .05em #999999;
+    text-decoration: underline;
+    padding: 1em;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+section div div {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+div div a:hover {
+    font-style: italic;;
+}
+
+#l_float_select {
+    width: 75%;
+    margin: auto;
+    background-image: url("../images/paper.png");
+    background-repeat: repeat;
+}
+#r_float_select {
+    width: 75%;
+    margin: auto;
+    background-image: url("../images/paper.png");
+    background-repeat: repeat;
+}
+
+.header_section {
+    width: 75%;
+    margin: 3% auto;
+    background-image: url("../images/paper.png");
+    background-repeat: repeat;
+}
+
+.border {
+    border-left: 0.5em inset #000000;
+    border-bottom: 0.5em inset #000000;
+}
+
+.q_and_a {
+    width: 50%;
+    margin: auto;
+}
+
+.answer {
+    display: none;
+    font-style: italic;
+}
+
+/*code for buttons*/
+
+.btn {
+    background-image: url("../images/paper.png");
+    background-repeat: repeat;
+    font-size: 0.7em;
+    font-family: Roman SD;
+    font-weight: bold;
+}
+
+.actbtn {
+    width: 100%;
+    display: inline-block;
+}
+
+#dwnld {
+    width: 30%;
+    display: block;
+    margin: auto;
+    padding: 2em;
+}
+
+}

@@ -23,16 +23,14 @@
     text-align: center;
 }
 
-%border {
+%section_border {
     border-left: 0.5em solid #000000;
     border-bottom: 0.5em solid #000000;
 }
 
-%normal_section_text {
-    font-size: 2em;
-    font-weight: bold;
-    width: 50%;
-    margin: auto;
+%button_border {
+    border-left: 0.1em solid #000000;
+    border-bottom: 0.1em solid #000000;
 }
 
 body {
@@ -51,7 +49,6 @@ h4 {
     @extend %header;
     font-size: 3em;
     text-decoration: underline;
-    padding: 1em;
 }
 
 a {
@@ -63,21 +60,34 @@ a {
     }
 }
 
-p {
-    @extend %normal_section_text;
-    font-family: easyread;
+.question {
+    font: {
+        family: easyread;
+        size: 2em;
+        weight: bold;
+    }
+    width: 80%;
+    margin-left: 3em;
+}
+
+.quiz_select {
+    font: {
+        family: Roman SD;
+        size: 2em;
+    }
+    text-align: center;
 }
 
 .wide_section {
     @extend %section_background;
-    @extend %border;
+    @extend %section_border;
     width: 75%;
     margin: 3% auto;
 }
 
 #l_float_select {
     @extend %section_background;
-    @extend %border;
+    @extend %section_border;
     float: left;
     width: 35%;
     margin-left: 12.5%;
@@ -87,7 +97,7 @@ p {
 
 #r_float_select {
     @extend %section_background;
-    @extend %border;
+    @extend %section_border;
     float: right;
     width: 35%;
     margin-right: 12.5%;
@@ -102,11 +112,12 @@ p {
 
 .btn {
     @extend %section_background;
-    @extend %border;
+    @extend %button_border;
     font-size: 0.7em;
     font-family: easyread;
     font-weight: bold;
-}
+    margin: 0.8em auto;
+    padding: 0.5em 2em;
 
 .actbtn {
     @extend .btn;
@@ -122,4 +133,6 @@ p {
     display: block;
     margin: auto;
     padding: 2em;
+}
+
 }
