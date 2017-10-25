@@ -6,6 +6,13 @@
     margin-left: 12.5%;
     margin-bottom: 3%;
     text-align: center;
+
+    @include tablet {
+        position: absolute;
+        display: block;
+        width: 75%;
+        margin: 3% auto;
+    }
 }
 
 #r_float_select {
@@ -16,6 +23,13 @@
     margin-right: 12.5%;
     margin-bottom: 3%;
     text-align: center;
+
+    @include tablet {
+        position: absolute;
+        display: block;
+        width: 75%;
+        margin: 3% auto;
+    }
 }
 
 #dwnld {
