@@ -5,7 +5,7 @@
 }
 
 @mixin phone {
-    @media (max-width: #{phone-widht}) {
+    @media (min-width: 1px) and (max-width: #{phone-widht}) {
         @content;
     }
 }

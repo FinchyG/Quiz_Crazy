@@ -62,19 +62,33 @@ h1 {
   padding: 3% 0;
 }
 
-/* line 13, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+@media phone {
+  /* line 7, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+/* line 17, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
 h4 {
   font-size: 2em;
   text-decoration: underline;
 }
 
-/* line 19, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+@media phone {
+  /* line 17, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+  h4 {
+    font-size: 1.2em;
+  }
+}
+
+/* line 27, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
 a {
   text-decoration: none;
   color: #000000;
 }
 
-/* line 23, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+/* line 31, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
 a:hover {
   font-style: italic;
 }
