@@ -1,1 +1,162 @@
-body{background-image:url("../images/mahogany.png");background-repeat:repeat}.wide_section,.btn,.actbtn,#dwnld,#l_float_select,#r_float_select{background-image:url("../images/paper.png");background-repeat:repeat}h1,h4{text-shadow:.05em .05em #999999;text-align:center}.wide_section,#l_float_select,#r_float_select{border-right:0.5em solid #000000;border-bottom:0.5em solid #000000}.btn,.actbtn,#dwnld{border-right:0.1em solid #000000;border-bottom:0.1em solid #000000}.btn,.actbtn,#dwnld{font-family:easyread;font-weight:bold;padding:0.5em 2em}.btn:hover,.actbtn:hover,#dwnld:hover{cursor:pointer}@font-face{font-family:Roman SD;src:url("../external/roman.ttf")}@font-face{font-family:easyread;src:url("../external/easyread.ttf")}body{font-size:12pt;font-weight:bold}h1{font-size:5em;padding:3% 0}h4{font-size:2em;text-decoration:underline}a{text-decoration:none;color:#000000}a:hover{font-style:italic}.quiz_select{font-family:Roman SD;text-align:center}.wide_section{width:75%;margin:3% auto}.answer{display:none}.btn{margin-top:1em}.actbtn,#dwnld{display:block;width:60%;margin:auto}.quiz{font-family:easyread;font-weight:bold;display:block;width:50%;margin:auto}#l_float_select{float:left;width:35%;margin-left:12.5%;margin-bottom:3%;text-align:center}@media (min-width: 241px) and (max-width: 1059px){#l_float_select{position:absolute;display:block;width:75%;margin:3% auto}}#r_float_select{float:right;width:35%;margin-right:12.5%;margin-bottom:3%;text-align:center}@media (min-width: 241px) and (max-width: 1059px){#r_float_select{position:absolute;display:block;width:75%;margin:3% auto}}#dwnld{text-align:center}
+/* line 1, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
+body {
+  background-image: url("../images/mahogany.png");
+  background-repeat: repeat;
+}
+
+/* line 6, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
+.wide_section, .btn, .actbtn, #dwnld, #left_section, #right_section {
+  background-image: url("../images/paper.png");
+  background-repeat: repeat;
+}
+
+/* line 11, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
+h1, h4 {
+  text-shadow: .05em .05em #999999;
+  text-align: center;
+}
+
+/* line 16, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
+.wide_section, #left_section, #right_section {
+  border-right: 0.5em solid #000000;
+  border-bottom: 0.5em solid #000000;
+}
+
+/* line 21, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
+.btn, .actbtn, #dwnld {
+  border-right: 0.1em solid #000000;
+  border-bottom: 0.1em solid #000000;
+}
+
+/* line 26, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
+.btn, .actbtn, #dwnld {
+  font-family: easyread;
+  font-weight: bold;
+  padding: 0.5em 2em;
+}
+
+/* line 31, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
+.btn:hover, .actbtn:hover, #dwnld:hover {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: Roman SD;
+  src: url("../external/roman.ttf");
+}
+
+@font-face {
+  font-family: easyread;
+  src: url("../external/easyread.ttf");
+}
+
+/* line 1, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+body {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+/* line 7, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+h1 {
+  font-size: 5em;
+  padding: 3% 0;
+}
+
+/* line 13, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+h4 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+/* line 19, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* line 23, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+a:hover {
+  font-style: italic;
+}
+
+/* line 1, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_classes.scss */
+.quiz_select {
+  font-family: Roman SD;
+  text-align: center;
+}
+
+/* line 6, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_classes.scss */
+.wide_section {
+  width: 75%;
+  margin: 3% auto;
+}
+
+/* line 13, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_classes.scss */
+.answer {
+  display: none;
+}
+
+/* line 17, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_classes.scss */
+.btn {
+  margin-top: 1em;
+}
+
+/* line 24, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_classes.scss */
+.actbtn, #dwnld {
+  display: block;
+  width: 60%;
+  margin: auto;
+}
+
+/* line 33, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_classes.scss */
+.quiz {
+  font-family: easyread;
+  font-weight: bold;
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+/* line 1, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_ids.scss */
+#left_section {
+  position: relative;
+  display: inline-block;
+  width: 35%;
+  margin: 10%;
+  text-align: center;
+}
+
+@media (min-width: 241px) and (max-width: 1059px) {
+  /* line 1, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_ids.scss */
+  #left_section {
+    position: relative;
+    display: block;
+    width: 75%;
+    margin: auto;
+  }
+}
+
+/* line 18, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_ids.scss */
+#right_section {
+  position: relative;
+  display: inline-block;
+  width: 35%;
+  text-align: center;
+}
+
+@media (min-width: 241px) and (max-width: 1059px) {
+  /* line 18, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_ids.scss */
+  #right_section {
+    position: relative;
+    display: block;
+    width: 75%;
+    margin: auto;
+  }
+}
+
+/* line 34, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_ids.scss */
+#dwnld {
+  text-align: center;
+}
+
+/*# sourceMappingURL=../SASS.map */
