@@ -1,11 +1,11 @@
 @mixin tablet {
-    @media (max-width: #{$desktop-width - 1px}) {
+    @media (min-width: #{$phone-width + 1px}) and (max-width: #{$desktop-width - 1px}) {
         @content;
     }
 }
 
 @mixin phone {
-    @media (max-width: #{$phone-width -1}) {
+    @media (min-width: 1px) and (max-width: #{phone-widht}) {
         @content;
     }
 }
