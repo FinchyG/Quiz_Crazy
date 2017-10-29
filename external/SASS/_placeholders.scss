@@ -31,4 +31,8 @@
     &:hover {
         cursor: pointer;
     }
+
+    @media (max-width: $phone-width) {
+        font-size: 0.8em;
+    }
 }
