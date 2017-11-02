@@ -49,12 +49,12 @@ h1, h4 {
 
 @font-face {
   font-family: Roman SD;
-  src: url("../external/roman.ttf");
+  src: url("roman.ttf");
 }
 
 @font-face {
   font-family: easyread;
-  src: url("../external/easyread.ttf");
+  src: url("easyread.ttf");
 }
 
 /* line 1, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
@@ -211,7 +211,7 @@ a:hover {
 @media (max-width: 580px) {
   /* line 34, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_ids.scss */
   #dwnld {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 
