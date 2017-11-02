@@ -14,41 +14,42 @@ body {
 h1, h4 {
   text-shadow: .05em .05em #999999;
   text-align: center;
+  font-family: roman;
 }
 
-/* line 16, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
+/* line 17, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
 .wide_section, #left_section, #right_section {
   border-right: 0.5em solid #000000;
   border-bottom: 0.5em solid #000000;
 }
 
-/* line 21, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
+/* line 22, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
 .btn, .actbtn, #dwnld {
   border-right: 0.1em solid #000000;
   border-bottom: 0.1em solid #000000;
 }
 
-/* line 26, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
+/* line 27, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
 .btn, .actbtn, #dwnld {
   font-family: easyread;
   font-weight: bold;
   padding: 0.5em 2em;
 }
 
-/* line 31, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
+/* line 32, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
 .btn:hover, .actbtn:hover, #dwnld:hover {
   cursor: pointer;
 }
 
 @media (max-width: 580px) {
-  /* line 26, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
+  /* line 27, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
   .btn, .actbtn, #dwnld {
     font-size: 0.8em;
   }
 }
 
 @font-face {
-  font-family: Roman SD;
+  font-family: roman;
   src: url("roman.ttf");
 }
 
@@ -59,56 +60,57 @@ h1, h4 {
 
 /* line 1, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
 body {
+  font-family: easyread;
   font-size: 12pt;
   font-weight: bold;
 }
 
-/* line 7, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+/* line 8, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
 h1 {
   font-size: 5em;
   padding: 3% 0;
 }
 
 @media (max-width: 580px) {
-  /* line 7, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+  /* line 8, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
   h1 {
     font-size: 2em;
   }
 }
 
-/* line 17, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+/* line 18, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
 h4 {
   font-size: 2em;
   text-decoration: underline;
 }
 
 @media (max-width: 580px) {
-  /* line 17, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+  /* line 18, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
   h4 {
     font-size: 1.2em;
   }
 }
 
-/* line 27, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+/* line 28, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
 a {
   text-decoration: none;
   color: #000000;
 }
 
-/* line 31, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+/* line 32, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
 a:hover {
   font-style: italic;
 }
 
 @media (max-width: 580px) {
-  /* line 27, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+  /* line 28, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
   a {
     font-size: 0.5em;
   }
 }
 
 @media (max-width: 580px) {
-  /* line 40, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+  /* line 41, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
   p {
     font-size: 0.5em;
   }
@@ -116,7 +118,7 @@ a:hover {
 
 /* line 1, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_classes.scss */
 .quiz_select {
-  font-family: Roman SD;
+  font-family: roman;
   text-align: center;
 }
 
@@ -159,7 +161,6 @@ a:hover {
 
 /* line 39, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_classes.scss */
 .quiz {
-  font-family: easyread;
   font-weight: bold;
   display: block;
   width: 50%;
