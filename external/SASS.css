@@ -49,18 +49,18 @@ h1, h4 {
 }
 
 @font-face {
-  font-family: roman;
-  src: url("roman.ttf");
+  font-family: Roman SD;
+  src: url("Roman SD.ttf");
 }
 
 @font-face {
-  font-family: easyread;
-  src: url("easyread.ttf");
+  font-family: Print Clearly;
+  src: url("Print Clearly.ttf");
 }
 
 /* line 1, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
 body {
-  font-family: easyread;
+  font-family: Print Clearly;
   font-size: 12pt;
   font-weight: bold;
 }
@@ -118,7 +118,7 @@ a:hover {
 
 /* line 1, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_classes.scss */
 .quiz_select {
-  font-family: roman;
+  font-family: Roman SD;
   text-align: center;
 }
 
