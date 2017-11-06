@@ -93,11 +93,10 @@ h4 {
 
 /* line 28, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
 a {
-  text-decoration: none;
   color: #000000;
 }
 
-/* line 32, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+/* line 31, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
 a:hover {
   font-style: italic;
 }
@@ -110,7 +109,7 @@ a:hover {
 }
 
 @media (max-width: 580px) {
-  /* line 41, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
+  /* line 40, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
   p {
     font-size: 0.5em;
   }
