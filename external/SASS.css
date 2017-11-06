@@ -50,12 +50,12 @@ h1, h4 {
 
 @font-face {
   font-family: Roman SD;
-  src: url("Roman SD.ttf");
+  src: url("Roman%20SD.ttf");
 }
 
 @font-face {
   font-family: Print Clearly;
-  src: url("Print Clearly.ttf");
+  src: url("Print%20Clearly.ttf");
 }
 
 /* line 1, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
