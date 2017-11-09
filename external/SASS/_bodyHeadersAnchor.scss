@@ -11,7 +11,7 @@ h1 {
     padding: 3% 0;
 
     @media (max-width: $phone-width) {
-        font-size: 2em;
+        font-size: 1em;
     }
 }
 
@@ -21,7 +21,7 @@ h4 {
     text-decoration: underline;
 
     @media (max-width: $phone-width) {
-        font-size: 1.2em;
+        font-size: 0.8em;
     }
 }
 
