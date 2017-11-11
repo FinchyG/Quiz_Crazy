@@ -42,3 +42,24 @@
     width: 50%;
     margin: auto;
 }
+
+.slider {
+    width: 4.5em;
+    height: 4.5em;
+    position: relative;
+
+    animation: image_slide 4s infinite alternate;
+    -webkit-animation: image_slide 4s infinite alternate;
+    -moz-animation: image_slide 4s infinite alternate;
+    -oanimation: image_slide 4s infinite alternate;
+
+    @media (max-width: $tablet-width) {
+        width: 3em;
+        height: 3em;
+    }
+
+    @media (max-width: $phone-width) {
+        width: 1.5em;
+        height: 1.5em;
+    }
+}

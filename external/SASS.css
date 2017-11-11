@@ -1,3 +1,39 @@
+@keyframes image_slide {
+  0% {
+    left: 23%;
+  }
+  100% {
+    left: 70%;
+  }
+}
+
+@-webkit-keyframes image_slide {
+  0% {
+    left: 23%;
+  }
+  100% {
+    left: 70%;
+  }
+}
+
+@-moz-keyframes image_slide {
+  0% {
+    left: 23%;
+  }
+  100% {
+    left: 70%;
+  }
+}
+
+@-o-keyframes image_slide {
+  0% {
+    left: 23%;
+  }
+  100% {
+    left: 70%;
+  }
+}
+
 /* line 1, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_placeholders.scss */
 body {
   background-image: url("images/mahogany.png");
@@ -91,7 +127,7 @@ h4 {
 @media (max-width: 580px) {
   /* line 18, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_bodyHeadersAnchor.scss */
   h4 {
-    font-size: 0.6em;
+    font-size: 0.5em;
   }
 }
 
@@ -168,6 +204,33 @@ a:hover {
   display: block;
   width: 50%;
   margin: auto;
+}
+
+/* line 46, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_classes.scss */
+.slider {
+  width: 4.5em;
+  height: 4.5em;
+  position: relative;
+  animation: image_slide 4s infinite alternate;
+  -webkit-animation: image_slide 4s infinite alternate;
+  -moz-animation: image_slide 4s infinite alternate;
+  -oanimation: image_slide 4s infinite alternate;
+}
+
+@media (max-width: 1060px) {
+  /* line 46, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_classes.scss */
+  .slider {
+    width: 3em;
+    height: 3em;
+  }
+}
+
+@media (max-width: 580px) {
+  /* line 46, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_classes.scss */
+  .slider {
+    width: 1.5em;
+    height: 1.5em;
+  }
 }
 
 /* line 1, C:/Users/User/Documents/GitHub/Quiz_Crazy/external/SASS/_ids.scss */
