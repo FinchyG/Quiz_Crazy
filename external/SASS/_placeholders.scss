@@ -8,15 +8,22 @@
     background-repeat: repeat;
 }
 
+%section_border {
+    border-right: 0.5em solid #000000;
+    border-bottom: 0.5em solid #000000;
+}
+
+%left_right_section_pos_dis_wdth_pad {
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    padding-bottom: 1em;
+}
+
 %header {
     text-shadow: .05em .05em #999999;
     text-align: center;
     font-family: $roman;
-}
-
-%section_border {
-    border-right: 0.5em solid #000000;
-    border-bottom: 0.5em solid #000000;
 }
 
 %button_border {

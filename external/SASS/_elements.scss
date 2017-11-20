@@ -19,10 +19,15 @@ h4 {
     @extend %header;
     font-size: 2em;
     text-decoration: underline;
+    margin-bottom: -0.2em;
 
     @media (max-width: $phone-width) {
         font-size: 0.5em;
     }
+}
+
+p {
+    margin-bottom: 0.2em;
 }
 
 a {

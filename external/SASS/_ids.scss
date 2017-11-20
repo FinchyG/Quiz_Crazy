@@ -1,9 +1,7 @@
 #left_section {
     @extend %section_background;
     @extend %section_border;
-    position: relative;
-    display: inline-block;
-    width: 35%;
+    @extend %left_right_section_pos_dis_wdth_pad;
     margin: 3% 10% 3%;
     text-align: center;
 
@@ -18,9 +16,7 @@
 #right_section {
     @extend %section_background;
     @extend %section_border;
-    position: relative;
-    display: inline-block;
-    width: 35%;
+    @extend %left_right_section_pos_dis_wdth_pad;
     text-align: center;
 
     @media (max-width: $tablet-width) {
