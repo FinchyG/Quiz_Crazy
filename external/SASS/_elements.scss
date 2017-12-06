@@ -1,7 +1,7 @@
 body {
     @extend %body_background;
     font-family: $easyread;
-    font-size: 12pt;
+    font-size: 14pt;
     font-weight: bold;
 }
 
@@ -11,7 +11,7 @@ h1 {
     padding: 3% 0;
 
     @media (max-width: $phone-width) {
-        font-size: 1em;
+        font-size: 0.7em;
     }
 }
 
@@ -22,12 +22,16 @@ h4 {
     margin-bottom: -0.2em;
 
     @media (max-width: $phone-width) {
-        font-size: 0.5em;
+        font-size: 0.6em;
     }
 }
 
 p {
     margin-bottom: 0.2em;
+
+    @media (max-width: $phone-width) {
+        font-size: 0.5em;
+    }
 }
 
 a {
@@ -37,12 +41,6 @@ a {
         font-style: italic;
     }
 
-    @media (max-width: $phone-width) {
-        font-size: 0.5em;
-    }
-}
-
-p {
     @media (max-width: $phone-width) {
         font-size: 0.5em;
     }
